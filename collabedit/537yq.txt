@@ -1,0 +1,137 @@
+# Topic lists
+
+## Overall Idea:
+
+ - First things first.  We need to show how to install, edit a file, run some code. 
+ 
+ - Focus on B. A. S. I. C. S. first before we go off to more esoteric stuff (looking 
+   at you, tramp or org mode or nix or window managers)
+      
+## From the top of my head I can think of possible topics such as
+
+ 1 installing ESS (possibly special mention to the bundles by VG for Windows
+   and macOS, or KH for social science, or ...) -- no difficulty installing 
+   
+ 2 maybe different Emacs frontends and ESS?  Spacemacs, Doom, ...  Does anybody here
+   use one of them and could show the use? (SB: I don't) [AZ: If a spacemacs 
+   user is needed I could put together a couple of slides]
+
+ 3 basic editing, highlighting etc maybe up to easily running multiple
+   buffers and renaming them, auto*magic* indentation and color highlighting etc pp. 
+   Working with sexp (C-M-f C-M-b C-M-k)
+   C-x n d (narrow to defun) useful for code renaming in re-factoring functions.
+   
+ 4 basic selection and running of code: line, region, function, buffer (without
+   getting lost in too long an Emacs sermon -- this may be a 5 min topic)
+   
+ 5 invoking help (on functions, objects, ...), running examples from help
+ 
+ 6 additional customization for ESS: auto-completion with company / company-quickhelp,
+   syntax checking with Flycheck, configuring buffer display, Rdired, etc. [FS]
+
+ 7 other relevant Emacs tricks ?
+   - SB: getting electric pair to work properly? I have never succeeded in that and disabled it. 
+   - also see suggestions on i) org-mode ii) magit
+
+ 8 ESS and RMarkdown, polymode [TS] examples / demos
+   - ESS and Rnw too (CR)
+
+ 9 package building with ESS (can share my workflow [AD])
+   (Suggestion: simple demo, five mins are filled easily and quickly. Deeper comparisons to 
+    alternative approaches may best be left for another day)
+  
+10 package documentation with roxygen2 via ESS (part of package building ? [AD])
+ 
+11 debugging with ESS
+ 
+12 git via magit (magit is supercool, but is there sth. special about ESS/magit? DS)
+ 
+13 other Emacs voodoo like tramp use with ESS ?
+
+14 object browsers, Rdired, ... 
+
+15 your most favourite trick here!
+
+16 your second most favourite trick here too!
+ 
+17 Auto-formatting code
+   + does this already exist in ESS? 
+    (DE: I say it exists and is a basic topic for above yes, 
+     see https://cran.r-project.org/doc/manuals/r-release/R-ints.html#R-coding-standards)
+
+18 blogging with Emacs, RMarkdown, Blogdown, Hugo, ESS, ... (DE: This needs focus,
+   at present it is entire second series of talks beyond this one)
+   (TS: I agree this is too much to cover comprehensively. I do think there could be value in 
+    demonstrating how blogging works with these tools. The objective would be to show what is possible, 
+    and how easy it is to use. That might motivate the audience to look into how to do it, or lead to a 
+    follow up series with detailed instruction on the different components)
+   (DE: Not to dampen your energy and enthusiasm but that "give a teaser and hope people study more" is 
+    true of every topic and lecture, in essence.  And why we want a "5 minute limit".)
+   (GM: i do think that, for someone coming from the outside, seeing someone with a seamless flow generating a data-, graph-full
+    blog page might well convince them to think, "oh, you can do *that*, that easily?  let's look some more".  but, maybe just
+    as a teaser, not so much instructional?)
+   (DE: Sure. I just do not think you can do it well enough in five mins given all the details. Happy to be proven wrong :) )
+  
+19 ESS and org mode [GM]
+   + life in an ESS Org Src buffer (GM)
+   
+20 (Possible duplicate of point 2) ESS and Emacs for VI users ?  Anybody use Vile or Spacemacs?  
+ 
+## Topics that are 'too far out' for a first round 
+ 
+ - ESS and EXWM (if I [SJE] get a decent workflow)
+ 
+ - ESS and nix (DE: too esoteric, would like focus on cross-platform cross-OS here)
+ 
+ - ESS and LSP-mode (SJE: probably too advanced)
+ 
+## Meta
+ 
+ - How would we go about suggesting a _minimal_ but working .emacs for ESS work? Cover it 
+   in installation? [TS]
+ 
+ - Questions .emacs vs. Preferences.el 
+ 
+## Next Steps
+ 
+ - GitHub 'organization' to regroup different repos, one each per talk, room for experimentation etc
+   [DONE] See https://github.com/ess-intro/
+ 
+ - Or just one GitHub (or GitLab) repo with links to talks repos?
+ 
+ - Other ideas?  Please edit here in this page possibly by opening new sections below ...
+ 
+## Who is willing to do what? [GM]
+ 
+ - multiple volunteers for same topic perfectly okay [GM, DE]
+ 
+ - may I suggest we put "initials in a square box" next to the topic(s) we could cover above?  [DE] [ggm]
+ 
+## Who is who (add GitHub handles to join GH org)
+ 
+ - DE: Dirk Eddelbuettel (@eddelbuettel), 25 years of Emacs and zero skill in Elisp, Emacs for R, C/C++, (ma)git, sh, Markdown, Life, The Universe, .... 
+ 
+ - DS: Detlef Steuer, 15 years of Emacs and still a clueless beginner, R since before 0.50, orgmode
+ 
+ - FS: Frédéric Santos, ~2 years of Emacs, "advanced beginner" in Elisp, 
+       daily use of ESS, and org mode with polymode.
+ 
+ - AZ: Alex Zarebski, ~2 years Spacemacs, pretty satisfied with my org + ESS
+       setup but always looking to learn a bit more.
+ 
+ - GM: Greg Minshall: 25 years of emacs, staggers in elisp; org+R ==> ESS
+ 
+ - TS: Tyler Smith, 16 years of Emacs and ESS, competent Elisp, heavy user of org, polymode, RMarkdown 
+  
+ - RS: Rodney Sparapani, 22 years of emacs and developer of ESS 
+       since 1998.  Would like to talk about Roxygen
+       
+ - SB: Stephen Bond, 15 years of ESS usage, basic Elisp, basic org, RMarkdown, Fortran, python
+ 
+## Misc
+ 
+ - RS: We need to have links in one central location such as 
+   <https://www.emacswiki.org/emacs/EmacsSpeaksStatistics>
+   where users are likely to find this.  
+   A YouTube channel would be a good idea.  
+   I can add links to this material from the ESS home page.
