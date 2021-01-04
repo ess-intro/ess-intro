@@ -1,5 +1,13 @@
 # Topic lists
 
+## Moving over to GitHub
+
+ - Let's try to have more discussion in the wiki at https://github.com/ess-intro/ess-intro/wiki
+
+ - Per-subject pages at the wiki
+   - Topics https://github.com/ess-intro/ess-intro/wiki/Topics
+   - Style https://github.com/ess-intro/ess-intro/wiki/Style
+
 ## Overall Idea:
 
  - First things first.  We need to show how to install, edit a file, run some code. 
@@ -14,15 +22,18 @@
       
 ## From the top of my head I can think of possible topics such as (--> now at https://github.com/ess-intro/ess-intro/wiki/Topics)
 
+ 0 **Please** bring this discuss over to the new location https://github.com/ess-intro/ess-intro/wiki/Topics
+
  1 installing ESS (possibly special mention to the bundles by VG for Windows
    and macOS, or KH for social science, or ...) -- no difficulty installing 
    
- 2 maybe different Emacs frontends and ESS?  Spacemacs, Doom, ...  Does anybody here
+ 2 maybe different Emacs frontends and ESS?  Spacemacs, Doom, vile, ...  Does anybody here
    use one of them and could show the use? (SB: I don't) [AZ: If a spacemacs 
    user is needed I could put together a couple of slides] [CW: if AZ puts spacemacs together, I could provide parallel version for doom] [AZ: sounds good to me CW, do the following sound suitable to you?]
    a. Motivation for <your emacs>, i.e., spacemacs is emacs + vim
    b. What ESS looks like in <your emacs>.
    c. How to learn more about <your emacs>.
+   DE Very good stuff.  Can you pretty-please carry this and other updates you make (or made) to https://github.com/ess-intro/ess-intro/wiki/Topics
 
  3 basic editing, highlighting etc maybe up to easily running multiple
    buffers and renaming them, auto*magic* indentation and color highlighting etc pp. 
@@ -38,8 +49,7 @@
    syntax checking with Flycheck, configuring buffer display, Rdired, etc. [FS]
 
  7 other relevant Emacs tricks ?
-   - SB: getting electric pair to work properly? I have never succeeded in that and disabled it. 
-   - also see suggestions on i) org-mode ii) magit
+   - see suggestions on i) org-mode ii) magit
 
  8 ESS and RMarkdown, polymode [TS] examples / demos
    - ESS and Rnw too (CR)
@@ -123,18 +133,15 @@
  
  - DS: Detlef Steuer, 15 years of Emacs and still a clueless beginner, R since before 0.50, orgmode
  
- - FS: Frédéric Santos (@frederic-santos), ~2 years of Emacs, "advanced beginner" in Elisp, 
-       daily use of ESS, and org mode with polymode.
+ - FS: Frédéric Santos (@frederic-santos), ~2 years of Emacs, "advanced beginner" in Elisp, daily use of ESS, and org mode with polymode.
  
- - AZ: Alex Zarebski (@aezarebski), ~2 years Spacemacs, pretty satisfied with my org + ESS
-       setup but always looking to learn a bit more.
+ - AZ: Alex Zarebski (@aezarebski), ~2 years Spacemacs, pretty satisfied with my org + ESS setup but always looking to learn a bit more.
  
  - GM: Greg Minshall: 25 years of emacs, staggers in elisp; org+R ==> ESS
  
  - TS: Tyler Smith (@plantarum), 16 years of Emacs and ESS, competent Elisp, heavy user of org, polymode, RMarkdown. 
   
- - RS: Rodney Sparapani, 22 years of emacs and developer of ESS 
-       since 1998.  Would like to talk about Roxygen
+ - RS: Rodney Sparapani: github user @rsparapa; 22 years of emacs and developer of ESS since 1998; Would like to talk about Roxygen
        
  - SB: Stephen Bond (@xvtstephen), 15 years of ESS usage, basic Elisp, basic org, RMarkdown, Fortran, python
  
@@ -143,6 +150,12 @@
  - AD: Ahmadou Dicko (@dickoa), 10 years of R, emacs, ess and org. No dev skills in elisp can just hack for optimizing my setup.
  
  - CW: chris Wallace @chr1swallace. 20+ years of Emacs + ESS. User not elisp writer. 
+ 
+ - CR: Clark Richards @richardsc. 16 years of Emacs + ESS. Mostly a user not a dev, looking to help where I can and also learn (likely a great deal from the look of the group!).
+ 
+ - DS(2): Deepayan Sarkar (@deepayan) ~20 yrs ESS + Emacs user; minimal lisp knowledge   [DE: You are allowed to mention another "core-ish" membership :) ]
+
+ - KDH: Kasper D Hansen (@kasperdanielhansen on GH), ~20y of Emacs+ESS, somewhat minimal lisp
  
  - (..... *please* add new entries at the bottom here and copy this along -- latency experience for collabedit may vary in different spots ....)
   
