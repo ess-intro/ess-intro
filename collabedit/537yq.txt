@@ -131,7 +131,7 @@
  
  - DE: Dirk Eddelbuettel (@eddelbuettel), 25 years of Emacs and zero skill in Elisp, Emacs for R, C/C++, (ma)git, sh, Markdown, Life, The Universe, .... 
  
- - DS: Detlef Steuer, 15 years of Emacs and still a clueless beginner, R since before 0.50, orgmode
+ - DS: Detlef Steuer (@dsteuer), 15 years of Emacs and still a clueless beginner, R since before 0.50, orgmode
  
  - FS: Frédéric Santos (@frederic-santos), ~2 years of Emacs, "advanced beginner" in Elisp, daily use of ESS, and org mode with polymode.
  
