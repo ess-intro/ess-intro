@@ -6,11 +6,16 @@ The _Introductions to Emacs Speaks Statistics (ESS)_ repo aims to provide a numb
 
 ### Status
 
-As of 4 Jan 2021 we have
-- [twelve project members](https://github.com/orgs/ess-intro/people) here in this organization,
-- [three proposed presentations](https://github.com/ess-intro) in their respective repos, and 
-- [initial background documentation](https://github.com/ess-intro/ess-intro/wiki) on the wiki.
+As of early January 2021 we have
+- [fifteen project members](https://github.com/orgs/ess-intro/people) here in this organization,
+- started work on [four presentations](https://github.com/ess-intro) in their respective repos, and 
+- have [initial documentation](https://github.com/ess-intro/ess-intro/wiki) on the wiki.
 
-### Background
+### Joining
 
-Initial discussions are on a [collaborative editor page](http://collabedit.com/537yq) (and snapshots of that page are now save here [in this repo](collabedit/537yq.txt) as well as the [ess-help mailing list](https://stat.ethz.ch/mailman/listinfo/ess-help).
+If you want to help please file an [issue ticket in this repo](https://github.com/ess-intro/ess-intro/issues). 
+
+### History
+
+Initial discussions were on a [collaborative editor page](http://collabedit.com/537yq) (and snapshots of that page are now save here [in this repo](collabedit/537yq.txt) as well as the [ess-help mailing list](https://stat.ethz.ch/mailman/listinfo/ess-help).
+Please do not update that page anymore but use this repo instead, particularly its [issue tickets](https://github.com/ess-intro/ess-intro/issues). 
