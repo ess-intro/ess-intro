@@ -1,4 +1,0 @@
-here begins a list of videos relevant to this or that part of our
-tutorials.
-
-[[https://www.youtube.com/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE][Rainer König's screencasts about Org mode]] (now a [[https://www.udemy.com/course/getting-yourself-organized-with-org-mode/?referralCode=D0CB0D077ED5EC0788F7][course on Udemy]]).
