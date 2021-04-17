@@ -6,9 +6,10 @@ The _Introductions to Emacs Speaks Statistics (ESS)_ repo aims to provide a numb
 
 ### Status
 
-As of March 2021 we have
+As of April 2021 we have
+- [the main website](https://ess-intro.github.io/) with (currently) five presentation videos and support material,
 - [sixteen project members](https://github.com/orgs/ess-intro/people) here in this organization,
-- started work on [seven presentations](https://github.com/ess-intro) in their respective repos, and
+- started work on [several presentations](https://github.com/ess-intro) in their respective repos, and
 - have [support documentation](https://github.com/ess-intro/ess-intro/wiki) for this project on its [wiki](https://github.com/ess-intro/ess-intro/wiki).
 
 ### Joining
